@@ -1,18 +1,28 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # meansdofcols
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of meansdofcols is to print a table of the means and standard
-deviations for each column in a numeric dataset.
+The goal of meansdofcols is to print a table of the means and standard deviations for each column in a numeric dataset.
 
 ## Installation
 
-You can install the development version of meansdofcols from
-[GitHub](https://github.com/) with:
+You can install the development version of meansdofcols from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -23,10 +33,8 @@ devtools::install_github("stat545ubc-2023/meansdofcols")
 
 This is a basic example which shows you how to solve a common problem:
 
-``` r
+```{r example}
 library(meansdofcols)
 mean_sd_of_cols(data.frame(a<- rnorm(5), b<- runif(5)))
-#>              Mean Std. Dev.
-#> Column1 0.2749417 0.5147989
-#> Column2 0.6381981 0.3721325
 ```
+

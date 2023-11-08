@@ -1,0 +1,12 @@
+Package: meansdofcols
+Title: Mean and Standard Deviations of Columns
+Version: 0.0.0.9000
+Authors@R: 
+    person("Charlotte", "Edgar", , "charlotte.edgar@stat.ubc.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Calculates the means and standard deviations of each column.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
