@@ -6,8 +6,10 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of meansdofcols is to print a table of the means and standard
-deviations for each column in a numeric dataset.
+The goal of the meansdofcols package is look at summary statistics of
+all columns at once instead of one at a time. The main function prints a
+table of the means and standard deviations for each column in a numeric
+dataset.
 
 ## Installation
 
@@ -26,7 +28,7 @@ This is a basic example which shows you how to solve a common problem:
 ``` r
 library(meansdofcols)
 mean_sd_of_cols(data.frame(a<- rnorm(5), b<- runif(5)))
-#>              Mean Std. Dev.
-#> Column1 0.2749417 0.5147989
-#> Column2 0.6381981 0.3721325
+#>               Mean Std. Dev.
+#> Column1 0.08794851 0.7239093
+#> Column2 0.26707436 0.2388102
 ```

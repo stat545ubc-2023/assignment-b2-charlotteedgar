@@ -15,7 +15,7 @@ mean_sd_of_cols <- function(your_data){
            'Your provided dataset has at least one column of class: ', class(your_data[,i])[1])
     }
     means[i] <- mean(your_data[,i], na.rm= TRUE)
-    sds[i] <- sd(your_data[,i],na.rm=TRUE)
+    sds[i] <- stats::sd(your_data[,i],na.rm=TRUE)
   }
   result <- data.frame(cbind(means,sds))
   colnames(result) <- c("Mean", "Std. Dev.")

@@ -18,7 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of meansdofcols is to print a table of the means and standard deviations for each column in a numeric dataset.
+The goal of the meansdofcols package is look at summary statistics of all columns at once instead of one at a time. The main function prints a table of the means and standard deviations for each column in a numeric dataset.
 
 ## Installation
 
